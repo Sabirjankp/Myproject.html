@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.first-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0px;
+}
+
+.left-div,
+.right-div {
+  width: 50%;
+}
+
+.right-div {
+  background-color: darkblue;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  margin: 40px 0px 0px 60px;
+  font-size: 25px;
+}
+
+/* //////////////////////////////////////////////////////
+//////////////  left Div //////////////////////////////
+////////////////////////////////////////////////////////*/
+
+.left-div {
+}
+
+.title-select,
+.Position,
+.street,
+.additoinal,
+.country,
+.email {
+  margin: 30px 0px 0px 60px;
+  width: 80%;
+}
+
+.Company {
+  width: 80%;
+  margin: 25px 0px 0px 60px;
+}
+
+.title-select,
+.Position,
+.firstName,
+.lastName,
+.Company,
+.employee,
+.business,
+.street,
+.additoinal,
+.zip,
+.place,
+.country,
+.code,
+.phone,
+.email {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.firstName,
+.business,
+.zip,
+.code {
+  margin: 25px 20px 0px 60px;
+}
+
+.firstName,
+.lastName,
+.business,
+.employee {
+  width: 38%;
+}
+
+.zip,
+.code {
+  width: 30%;
+}
+.place,
+.phone {
+  width: 46%;
+}
+
+.street,
+.additoinal,
+.zip,
+.place,
+.country,
+.code,
+.phone,
+.email {
+  background-color: transparent;
+  color: white;
+}
+
+.right-div input::placeholder {
+  color: white;
+}
+
+.check {
+  margin: 30px 20px 0px 60px;
+}
+
+.Butn {
+  margin: 30px 0px 50px 60px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+  font-weight: bolder;
+}
